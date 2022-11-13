@@ -1,0 +1,61 @@
+@media screen and (max-width:1216px) {
+    .product{
+        margin: 0 30px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .shops__list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .shops__item{
+        flex-basis: 33%;
+    }
+    .shops__h{
+        text-align: center;
+    }
+}
+@media screen and (max-width:1175px) {
+    .card{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .eucalypt{
+        flex-basis: 50%;
+    }
+}
+@media screen and (max-width:1100px)  {
+    .meeting__wrap{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:1028px)  {
+    .footer__wrap{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .edgar{
+        flex-basis: 25%;
+    }
+}
+@media screen and (max-width:982px)  {
+    .btns{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .btn{
+        flex-basis: 50%;
+    }
+}
+@media screen and (max-width:960px)  {
+    .header__wrap{
+        display: flex;
+        flex-direction: column;
+    }
+}
